@@ -4318,7 +4318,6 @@ S2.define('select2/dropdown/attachBody',[
     if (this.options.get('dropdownAutoWidth')) {
       css.minWidth = css.width;
       css.position = 'relative';
-      css.width = 'auto';
     }
 
     this.$dropdown.css(css);
